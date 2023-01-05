@@ -206,7 +206,7 @@ font-size: 2.8rem;
 
 .mainMiddle h4{
     font-size: 3.5rem;
-    margin: 10vh 0;
+    margin: 5vh 0;
 }
 
 .mainMiddle p {
@@ -223,4 +223,40 @@ font-size: 2.8rem;
 .imageSkater img{
     height: 100%;
     width: 100%;
+}
+
+.mainBottom {
+    padding-left: 21vw;
+}
+
+.mainBottom p{
+    width: 400px;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    color:#9FA2A7 ;
+}
+
+.mainBottom article img {
+    height: 100%;
+    width: 550px;
+    transform: translateY(-30%)translateX(-10%);
+}
+
+.mainBottomBorder{
+    margin-top: 10vh;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    height: 50vh;
+}
+
+footer h5 {
+    margin: 10vh auto;
+    font-size: 4rem;
+    text-align: center;
+}
+
+footer article {
+    text-align: center;
 }
