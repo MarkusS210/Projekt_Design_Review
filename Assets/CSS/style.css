@@ -1,0 +1,190 @@
+/*  General Style */
+
+@font-face {
+    font-family: Graphik Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Graphik Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: Theinhardt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+@font-face {
+    font-family: Tiempos;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fontGraphikRegular {
+    font-family: Graphik Regular;
+}
+
+.fontGraphikMedium {
+    font-family: Graphik Medium;
+}
+
+.fontTheinhardt {
+    font-family: Theinhardt;
+}
+
+.fontTiempos {
+    font-family: Tiempos;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh;
+    
+}
+
+.navBar a {
+    padding-left: 1.5vw;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #2B2C2E;
+}
+
+.logo {
+    /* padding-right: 8vw; */
+    font-size: 2rem;
+}
+
+.button a {
+    color:#2B2C2E ;
+    text-decoration: none;
+    padding: 4vh 2vw;
+    font-size: 1.3rem;
+    font-style: bold;
+    height: 20px;
+}
+
+button { margin-right: 5vw;
+    border: 2px solid black;
+    padding: 1.2vh ;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ .size{
+    height: 10vh;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2vh ;
+}
+
+.divMain {
+    height: 100vh;
+}
+
+
+.mainImage {
+background-image: url(../image/home_hero.png);
+height: 100%;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+.textSection {
+    margin: 10%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+    
+.textSection article p {
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.divMain2{
+    width: 50%;
+    
+}
+.divMain2 h2{
+font-size: 2.8rem;
+}
+
+.divMain2 p{
+    font-size: 1rem;
+    width: 60%;
+    color: #9FA2A7 ;
+}
+
+
+.divMain3 {
+    display: flex;
+    aspect-ratio: 2/1;
+    padding-left: 50px;
+}
+.divMain4 article {
+    flex-direction: column;
+    width: 70%;
+}
+
+.divMain4 {
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+.mainRabbit img{
+    height: 100%;
+    width: 40vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.divMain4 h3 {
+    padding: 5vh 0;
+    font-size: 2.5rem;
+}
+
+.divMain4 article p:first-child {
+    padding:3vh 0;
+}
+
+.backgroundBlueShoes img {
+    height: 60vh;
+    width:  30vw;
+    margin: 10vh 0 2vh 5vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainBlueShoes {
+    margin: 10vh 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(239, 239, 242);
+    height: 60vh;
+}
+
+.mainBlueShoes article {
+    width: 30vw;
+    padding-left: 8vw ;
+}
+
+.flexBlue div p:first-child {
+    font-size: 2.5rem;
+    margin: 2vh;
+}
+
+.mainMiddle h4, .mainMiddle p {
+    text-align: center;
+}
