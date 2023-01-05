@@ -134,12 +134,13 @@ font-size: 2.8rem;
 }
 .divMain4 article {
     flex-direction: column;
-    width: 70%;
+    /* width: 70%; */
 }
 
 .divMain4 {
     padding-left: 50px;
     font-size: 1.5rem;
+    height: 400px;
 }
 
 .mainRabbit img{
@@ -167,17 +168,21 @@ font-size: 2.8rem;
 }
 
 .mainBlueShoes {
-    margin: 10vh 6vw;
+    margin: 10vh 4vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color:rgb(239, 239, 242);
     height: 60vh;
 }
 
 .mainBlueShoes article {
-    width: 30vw;
+    width: 35vw;
     padding-left: 8vw ;
+}
+
+.flexBlue {
+    height: 80%;
 }
 
 .flexBlue div p:first-child {
@@ -185,6 +190,37 @@ font-size: 2.8rem;
     margin: 2vh;
 }
 
-.mainMiddle h4, .mainMiddle p {
+.flexBlue div p:last-child {
+    padding-left: 2vw;
+}
+
+.flexBlue div ol {
+    padding-left: 2vw;
+}
+
+
+.mainMiddle {
     text-align: center;
+    height: 200px;
+}
+
+.mainMiddle h4{
+    font-size: 3.5rem;
+    margin: 10vh 0;
+}
+
+.mainMiddle p {
+    width: 45vw;
+    font-size:1.3rem;
+    margin: 0 auto;
+    color:#9FA2A7 ;
+}
+
+.mainBottom {
+    display: flex;
+}
+
+.imageSkater img{
+    height: 100%;
+    width: 100%;
 }
